@@ -1,0 +1,24 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 2px;
+    width: 50vmin;
+    height: 50vmin;
+    margin: auto;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+}
+
+.grid-cell {
+    background-color: white;
+    border: 1px solid #ccc;
+}
